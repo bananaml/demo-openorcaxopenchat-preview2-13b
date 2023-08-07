@@ -1,0 +1,36 @@
+{
+    "version": "1",
+    "inputs": [
+        {
+            "name": "instruction",
+            "description": "The prompt to provide to the model.",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "temperature",
+            "description": "Temperature setting for the model.",
+            "type": "number",
+            "required": false,
+            "min": 0,
+            "max": 1
+        },
+        {
+            "name": "max_new_tokens",
+            "description": "Maximum tokens which are outputted by the model.",
+            "type": "number",
+            "required": false,
+            "min": 1
+        }
+    ],
+    "examples": [
+        {
+            "inputs": {
+                "instruction": "Tell me about AI"
+            },
+            "output": {
+                "outputs": "<s> User: Tell me about AI<|end_of_turn|> Assistant:\n\nArtificial Intelligence (AI) is a branch of computer science that focuses on creating intelligent machines that can think, learn, and work autonomously. AI systems are designed to mimic human cognitive abilities, such as learning, problem-solving, perception, and decision-making. These systems can be applied in various fields, including healthcare, finance, transportation, and entertainment.\n\nAI has been around for decades, but it has gained significant attention in recent years due to advancements in machine learning, deep learning, and natural language processing. These technologies have enabled AI systems to become more accurate, efficient, and versatile in their applications.\n\nThere are several types of AI, including:\n\n1. Narrow AI: This type of AI is designed to perform specific tasks, such as playing chess or recognizing faces. Narrow AI is not capable of general intelligence, but it can excel at particular tasks.\n\n2. General AI: Also known as artificial general intelligence (AGI), this type of AI aims to create systems that can perform any intellectual task that a human can. General AI is still a theoretical concept, and no current AI system has achieved this level of intelligence.\n\n3. Super AI: This is a hypothetical AI that surpasses human intelligence and may have the potential to control its own development. Super AI is a controversial topic, as it raises concerns about potential risks and ethical implications.\n\nAI has numerous applications in various industries, such as:\n\n1. Healthcare: AI can be used to analyze medical data, diagnose diseases, and develop personalized treatment plans. It can also assist in drug discovery and predicting patient outcomes.\n\n2. Finance: AI can be used for fraud detection, risk management, and automated trading. It can also help in analyzing financial data and making investment decisions.\n\n3. Transportation: AI can be used for self-driving cars, traffic management, and predicting transportation needs. It can also help in optimizing routes and reducing fuel consumption.\n\n4. Entertainment: AI can be used for creating virtual assistants, chatbots, and personalized recommendations in entertainment platforms. It can also be used for content creation, such as generating"
+            }
+        }
+    ]
+}
