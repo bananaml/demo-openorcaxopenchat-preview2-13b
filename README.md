@@ -1,9 +1,9 @@
 # demo-openorcaxopenchat-preview2-13b
 ![](https://www.banana.dev/lib_zOkYpJoyYVcAamDf/x2p804nk9qvjb1vg.svg?w=340 "Banana.dev")
 
-# Banana.dev openorcaxopenchat-preview2-13b starter template
+# Banana.dev OpenOrcaxOpenChat-Preview2-13B starter template
 
-This is a openorcaxopenchat-preview2-13b starter template from [Banana.dev](https://www.banana.dev) that allows on-demand serverless GPU inference.
+This is a OpenOrcaxOpenChat-Preview2-13B starter template from [Banana.dev](https://www.banana.dev) that allows on-demand serverless GPU inference.
 
 You can fork this repository and deploy it on Banana as is, or customize it based on your own needs.
 
