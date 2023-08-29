@@ -17,7 +17,7 @@
         },
         {
             "name": "max_new_tokens",
-            "description": "Maximum tokens which are outputted by the model.",
+            "description": "Maximum tokens which are generated in the output.",
             "type": "number",
             "required": false,
             "min": 1
